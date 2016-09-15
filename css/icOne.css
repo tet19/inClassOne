@@ -1,3 +1,52 @@
-body, html {
-  font-size: 12px;
+html {
+  font-size: 1.2rem;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: #76393A;
+}
+body{
+  background-color: #EFBF92;
+}
+body > a{
+  color: #D68159;
+}
+.weird-paragraph {
+  color: #A47F6B;
+  font-size: 1.2rem;
+}
+#sectionOne{
+  background-color: #76393A;
+  color: #EFBF92;
+}
+#sectionTwo{
+  text-align: left;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+nav ul li{
+  display:inline-block;
+  margin-right: 20px;
+}
+nav ul li:last-child {
+  margin-right: 0px;
+}
+nav ul li > a{
+  color: #C15759;
+  font-size: 1.5rem;
+}
+
+img {
+  float: right;
+  margin: 0px 10px;
+}
+
+footer {
+  font-size: 0.6rem;
+  text-align: center;
+}
+footer > a{
+  color: #D68159;
 }
