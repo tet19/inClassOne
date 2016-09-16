@@ -65,9 +65,16 @@ a:visited{
 }
 
 
-img {
+img.right {
   float: right;
   margin: 0px 10px;
+}
+img.fixed {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  height: 100px;
+  width: auto;
 }
 
 footer {
